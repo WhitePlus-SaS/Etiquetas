@@ -1,0 +1,139 @@
+*{
+  margin:0;
+  padding:0;
+  font-family:fantasy;
+}
+body{
+    background: #74ebd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+header{
+    margin-top:40px;
+    width: 100%;
+    text-align: center;
+    color:rgb(39, 39, 39);
+    font-size:26px;
+}
+header hr{
+    width: 30%;
+    border:white solid 3px;
+    background:white;
+    margin:auto;
+}
+.princ{
+    width: 55%;
+    border:white 4px solid;
+    padding:20px;
+    margin:auto;
+    text-align:center;
+}
+.princ h1{
+    width: 30%;
+    margin:auto;
+    -webkit-backdrop-filter:blur(100px);
+    backdrop-filter:blur(15px);
+    background-color:rgba(255, 255, 255, 0.261);
+}
+.etiqueta{
+    background-color: white;
+    box-shadow:-30px 30px 20px rgba(0,0,0,0.3);	
+    width: 40%;
+    border-radius:5px;
+    padding:40px;
+    
+}
+.uno{
+    margin-left:10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.tres{
+    margin-left:10%;
+}
+.five{
+    margin-left:10%;
+}
+.dos{
+    margin-left:50%;
+}
+.cuatro{
+    margin-left:50%;
+}
+.a{
+    margin-top:15%;
+}
+#bus{
+    border:3px solid black;
+    width: 80%;
+    margin:auto;
+    padding:5px;
+
+}
+#buscar{
+    margin-top:5px;
+    padding:5px;
+    border:3px solid black;
+    cursor:pointer;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    font-size:18px;
+    color:rgb(39, 39, 39);
+}
+a{
+    color:black;
+}
+@media (max-width: 820px){
+    .princ h1{
+        width: 100%;
+        margin:auto;
+        -webkit-backdrop-filter:blur(100px);
+        backdrop-filter:blur(15px);
+        background-color:rgba(255, 255, 255, 0.261);
+    }
+    .uno{
+        margin-left:25%;
+    }
+    .tres{
+        margin-left:20%;
+    }
+    .five{
+        margin-left:20%;
+    }
+    .dos{
+        margin-left:20%;
+    
+    }
+    .cuatro{
+        margin-left:20%;
+    }
+
+}
+@media (max-width: 500px){
+    .princ h1{
+        width: 100%;
+        margin:auto;
+        -webkit-backdrop-filter:blur(100px);
+        backdrop-filter:blur(15px);
+        background-color:rgba(255, 255, 255, 0.261);
+    }
+    .uno{
+        margin-left:20%;
+    }
+    .tres{
+        margin-left:20%;
+    }
+    .five{
+        margin-left:20%;
+    }
+    .dos{
+        margin-left:20%;
+    
+    }
+    .cuatro{
+        margin-left:20%;
+    }
+
+}
